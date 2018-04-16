@@ -170,7 +170,7 @@ class Relay {
 }
 const init = function(path) {
     if(typeof path === 'undefined') {
-        path = './scripts/relaycmd';
+        path = './node_modules/usb-relay/scripts/relaycmd';
     }
     return new Relay(path);
 }
