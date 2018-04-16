@@ -168,6 +168,7 @@ class Relay {
         }
     }
 }
+module.exports.Relay = Relay;
 const init = function(path) {
     if(typeof path === 'undefined') {
         throw new Error('PLEASE SPECIFY PATH TO EXECUTABLE example: \'./node_modules/usb-relay/scripts/relaycmd\'');
