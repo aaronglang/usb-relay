@@ -1,0 +1,16 @@
+{
+  "name": "usb-relay",
+  "version": "1.0.0",
+  "description": "Relay Controller for HID Interface USB Relays",
+  "main": "relay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "./scripts/build.sh"
+  },
+  "author": "AaronLangley",
+  "license": "ISC",
+  "dependencies": {
+    "error-handlers": "^1.0.8",
+    "node-schedule": "^1.3.0"
+  }
+}
