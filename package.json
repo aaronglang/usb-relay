@@ -1,6 +1,6 @@
 {
   "name": "usb-relay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Relay Controller for HID Interface USB Relays",
   "main": "relay.js",
   "scripts": {
