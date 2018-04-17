@@ -1,7 +1,8 @@
-"use strict";
+"use strict"
 const util = require('./helpers/util.js');
 
 class Relay {
+
     constructor(path) {
         this.path = path;
         this.err_message = 'Error getting USB data!';

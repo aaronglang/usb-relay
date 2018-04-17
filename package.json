@@ -2,7 +2,7 @@
   "name": "usb-relay",
   "version": "1.0.4",
   "description": "Relay Controller for HID Interface USB Relays",
-  "main": "relay.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "./scripts/build.sh"
